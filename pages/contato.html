@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <title>Contato - L. Lawliet</title>
+
+    <!-- FONTES EXTERNAS | Old Standard TT, Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="container">
+
+        <header class="page-header">
+            <img src="../img/capa.jpg" alt="Capa, uma foto do L Lawliet">
+        </header>
+        
+        <nav class="navbar">
+            <a class="navbar-link" href="../index.html">INÍCIO</a>
+            <a class="navbar-link" href="./biografia.html">BIOGRAFIA</a>
+            <a class="navbar-link" href="./publicidade.html">PUBLICIDADE</a>
+            <a class="navbar-link" href="./contato.html">CONTATO</a>
+        </nav>
+
+        <main class="content">
+            <form action="" method="get">
+                <h1>CONTATE O L!</h1>
+
+                <div>
+                    <label for="name">Nome:</label> <br>
+                    <input type="text" id="name">
+                </div>
+
+                <br> <div>
+                    <label for="surname">Sobrenome:</label> <br>
+                    <input type="text" id="surname">
+                </div>
+                
+                <br> <div>
+                    <label for="email">Email:</label> <br>
+                    <input type="text" id="email">
+                </div>
+
+                <br> <input id="contactRequest_btn" type="submit" value="Solicitar contato...">
+
+                <p class="status" id="contactRequest_status"></p>
+            </form>
+        </main>
+
+        <footer>
+            <p>Todos os direitos reservados.</p>
+            <p><strong>&copy;</strong> Luiz Carlos Jr.</p>
+        </footer>
+
+    </div>
+    <script src="../script/contato.js"></script>
+</body>
+</html>
